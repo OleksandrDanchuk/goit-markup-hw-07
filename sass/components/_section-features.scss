@@ -1,14 +1,14 @@
 /* features */
-.features {
+.section-features {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.features-list {
+.features__list {
   display: flex;
   align-items: flex-start;
   margin-right: 30px;
-  & .title {
+  & .features__title {
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -19,7 +19,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-  & .title-text {
+  & .features__text {
     margin-top: 0;
     margin-bottom: 0;
 
@@ -30,7 +30,7 @@
   }
 }
 
-.features-list-item {
+.features__item {
   width: 270px;
   align-items: flex-start;
   &:not(:last-child) {
@@ -38,7 +38,12 @@
   }
 }
 
-.feature {
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features__div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,12 +52,4 @@
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.icon-antenna,
-.icon-clock,
-.icon-diagram,
-.icon-astronaut {
-  width: 70px;
-  height: 70px;
 }
